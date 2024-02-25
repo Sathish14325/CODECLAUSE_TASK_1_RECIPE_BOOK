@@ -1,6 +1,6 @@
 # Recipe Book Website
 
-This is a simple recipe book website designed to showcase various recipes. Users can browse through different categories of recipes, search for specific recipes, and even contribute their own recipes to the collection.
+This is a simple recipe book website designed to showcase various recipes. contribute their own recipes to the collection.
 
 ## Technologies Used
 
