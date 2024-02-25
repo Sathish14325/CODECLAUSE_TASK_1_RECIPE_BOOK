@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Recipe Book</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#recipe-form">Add recipe</a>
+        <a href="#recipe-list">Recipe List</a>
+        <a href="#msg-me">Contact</a>
+    </nav>
+
+    <div id="home">
+        <p class="quote"><q>FOOD IS NOT<br><span>RATIONAL</span>.FOOD<br>IS CULTURE,<br>HABIT,CRAVING<br>AND <span>IDENTITY.</span></q></p>
+        <img src="bgimg.jpg" alt="no image" class="image">
+      </div>
+
+      <h2 class="add-recipe">Add/Edit Recipe</h2>
+      <div id="recipe-form">
+  
+        <label for="recipe-name">Recipe Name:</label>
+        <input type="text" id="recipe-name" placeholder="Enter recipe name">
+
+        <label for="ingredients">Ingredients:</label>
+        <textarea id="ingredients" placeholder="Enter ingredients"></textarea>
+
+        <label for="image-url">Image URL:</label>
+        <input type="text" id="image-url" placeholder="Enter image URL">
+        <hr>
+        <button onclick="saveRecipe()" id="btn">Save Recipe</button>
+    </div>
+    <h2 class="add-recipe">Recipe List</h2>
+    <div id="recipe-list">
+
+        <ul id="recipes"></ul>
+    </div>
+
+    <footer id="Contact">
+        <div class="logo">
+            <img src="diet.png" alt="no image" class="foot-img">
+            <h4 id="head4">@Sathish Codes</h4>
+        </div>
+        <form action="" id="msg-me">
+            <h4>Message Me</h4>
+            <label for="">Name</label>
+            <input type="text">
+            <label for="">Email</label>
+            <input type="email">
+            <button type="button" id="btn">Sumbit</button>
+        </form>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

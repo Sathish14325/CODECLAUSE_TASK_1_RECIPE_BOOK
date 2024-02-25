@@ -1,0 +1,139 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    background-color:rgb(35, 198, 35) ;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    padding: 1em;
+    margin: 5px;
+
+}
+nav a:hover{
+    background-color: green;
+    color: gold;
+    font-weight:bold;
+}
+#home{
+    display: flex;
+    width: 100%;
+    background-color:gainsboro;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 30px;
+}
+.image{
+    width: 45%;
+    border-radius: 20px;
+}
+.quote{
+    padding: 30px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+span{
+    color: rgb(235, 177, 33);
+}
+#recipe-form{
+    background-color: rgb(195, 255, 195);
+    border: 2px solid green;
+    width: 50%;
+    margin: auto;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 2em;
+    font-size: 20px;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+#btn{
+    background-color: rgb(25, 185, 25);
+    padding: 0.9em;
+    border: none;
+    border-radius: 0.5em;
+    margin: 1em;
+    color: white;
+}
+#btn:hover{
+    background-color: green;
+    font-weight: 600;
+}
+.add-recipe{
+    color: green;
+    text-align: center;
+    margin: 1em;
+    font-size: 2em;
+}
+
+#recipe-list{
+    background-color: rgb(195, 255, 195);
+    width: 50%;
+    padding: 2em;
+    border: 2px solid gray;
+    margin-top: 1em;
+    margin: auto;
+    border-radius: 2em;
+    font-size: 20px;
+}
+footer{
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+.foot-img{
+    width:100px;
+    height: 100px;
+    margin-left: 3rem
+}
+#msg-me{
+    background-color: white;
+    border: 2px solid black;
+    padding: 2em;
+    border-radius: 1em;
+}
+#head4{
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-size: 2em;
+}
+@media only screen and (max-width:500px){
+    #home{
+        display: block;
+    }
+    .image{
+        width: 80%;
+    }
+    nav{
+        display: block;
+    }
+    
+}
